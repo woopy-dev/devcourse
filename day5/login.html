@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>LOGIN</title>
-  </head>
 
-  <body>
-    <h1>Login</h1>
+<head>
+  <!-- 외부 스타일 시트 -->
+  <meta charset="UTF-8">
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="login.css">
+  <script type="text/javascript" src="login.js"></script>
+</head>
+
+<body>
+  <h1>Login</h1=>
     <form>
-      ID : <input type="text">
+      ID : <input id="txt_id" class="login_inputs" type="text">
       <br>
-      PW : <input type="password">
+      PW : <input class="login_inputs" type="password">
       <br>
-      <input type="button" value="login">
+      <input id="btn_login" type="button" value="login" 
+        onclick="popId()">
     </form>
-  </body>
+</body>
+
 </html>
