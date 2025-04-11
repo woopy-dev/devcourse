@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "figlet": "^1.8.0",
+    "is-odd-num": "^1.1.1"
+  }
+}
